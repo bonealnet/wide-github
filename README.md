@@ -24,3 +24,14 @@ Development
 -----------
 
 To generate the user.js for Greasemonkey, run `make js`. The user.css can be built using `make css`. The chrome extension can be built using `make chrome`.
+
+Licenses
+-----------
+The following lines were crashing the extension, and have been relocated from the "manifest.json" file
+
+"licenses": [
+	{
+		"type": "MIT",
+		"url": "https://raw.githubusercontent.com/xthexder/wide-github/master/LICENSE"
+	}
+]
